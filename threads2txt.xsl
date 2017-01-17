@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format" >
     <xsl:output method="text" omit-xml-declaration="yes" indent="no"/>
+    <xsl:param name="NODEID"></xsl:param>
+    <xsl:param name="DATETIME"></xsl:param>
+    
     <xsl:template match="/">
 		
 <!-- parsing 1 table -->
 		<xsl:for-each select="//table[1]/font/tbody/tr">
-			<xsl:if test="position()=1"><xsl:text>QUE </xsl:text></xsl:if>
+
+			
+			<xsl:if test="position()=1">
+				<xsl:value-of select="$NODEID"/>
+				<xsl:text> </xsl:text>
+				<xsl:value-of select="$DATETIME"/>
+				<xsl:text> </xsl:text><xsl:text>QUE </xsl:text>
+			</xsl:if>
+			
 			<xsl:if test="position()!=1">
 				<xsl:for-each select="td">
 					<xsl:if test="position()=1"><xsl:text>QUEUE </xsl:text></xsl:if>
@@ -18,8 +29,15 @@
 		<xsl:text>&#xd;</xsl:text>
 <!-- parsing 2 table for BP executions -->
 		<xsl:for-each select="//table[2]/font/tbody/tr">
+			
 			<!-- ignore 1 TR since this is the header, only write prefix-->
-			<xsl:if test="position()=1"><xsl:text>WFC  </xsl:text></xsl:if>
+			<xsl:if test="position()=1">
+				<xsl:value-of select="$NODEID"/>
+				<xsl:text> </xsl:text>
+				<xsl:value-of select="$DATETIME"/>
+				<xsl:text> </xsl:text>
+				<xsl:text>WFC  </xsl:text>
+			</xsl:if>
 			
 			<!-- start output with second TR -->
 			<xsl:if test="position()!=1">

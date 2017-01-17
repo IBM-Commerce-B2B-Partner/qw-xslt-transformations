@@ -1,7 +1,299 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"><html><head>
-  <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache" />
-  <META HTTP-EQUIV="Pragma" CONTENT="no-cache" />
-  <META HTTP-EQUIV="Expires" CONTENT="-1" />
-  <title>QueueWatcher</title><link rel='stylesheet' type='text/css' href='./css/blue/admin.css' /></head><body>
-<a href="queueWatcher?securetoken=14842303894842cacogrvkpnc1w7xkze0e8oft">Back to Secure Queue Watcher Menu</a><br />
-<html><head></head><body><h3>Queue Attributes:</h3><table border='1' cellspacing='0' cellpadding='4'><font size='3'><tbody><tr><td bgcolor="#E0E0E0" /><br/><th bgcolor="#E0E0E0">Queue1</th><th bgcolor="#E0E0E0">Queue2</th><th bgcolor="#E0E0E0">Queue3</th><th bgcolor="#E0E0E0">Queue4</th><th bgcolor="#E0E0E0">Queue5</th><th bgcolor="#E0E0E0">Queue6</th><th bgcolor="#E0E0E0">Queue7</th><th bgcolor="#E0E0E0">Queue8</th><th bgcolor="#E0E0E0">Queue9</th></tr><tr><th bgcolor="#E0E0E0">AE_ExecuteCycle</th><td bgcolor="#FFFFFF">1000</td><td bgcolor="#FFFFFF">100</td><td bgcolor="#FFFFFF">100</td><td bgcolor="#FFFFFF">100</td><td bgcolor="#FFFFFF">100</td><td bgcolor="#FFFFFF">10</td><td bgcolor="#FFFFFF">5</td><td bgcolor="#FFFFFF">2</td><td bgcolor="#FFFFFF">50</td></tr><tr><th bgcolor="#E0E0E0">AE_ExecuteCycleTime</th><td bgcolor="#FFFFFF">1000000000</td><td bgcolor="#FFFFFF">1000000000</td><td bgcolor="#FFFFFF">10000000</td><td bgcolor="#FFFFFF">2000000</td><td bgcolor="#FFFFFF">100000</td><td bgcolor="#FFFFFF">100000</td><td bgcolor="#FFFFFF">500</td><td bgcolor="#FFFFFF">300</td><td bgcolor="#FFFFFF">100000</td></tr><tr><th bgcolor="#E0E0E0">QueueDepth</th><td bgcolor="#FFFFFF">500000</td><td bgcolor="#FFFFFF">500000</td><td bgcolor="#FFFFFF">500000</td><td bgcolor="#FFFFFF">500000</td><td bgcolor="#FFFFFF">500000</td><td bgcolor="#FFFFFF">500000</td><td bgcolor="#FFFFFF">500000</td><td bgcolor="#FFFFFF">500000</td><td bgcolor="#FFFFFF">500000</td></tr><tr><th bgcolor="#E0E0E0">MaxPoolSize</th><td bgcolor="#FFFFFF">1</td><td bgcolor="#FFFFFF">3</td><td bgcolor="#FFFFFF">5</td><td bgcolor="#FFFFFF">8</td><td bgcolor="#FFFFFF">16</td><td bgcolor="#FFFFFF">8</td><td bgcolor="#FFFFFF">16</td><td bgcolor="#FFFFFF">16</td><td bgcolor="#FFFFFF">4</td></tr><tr><th bgcolor="#E0E0E0">CachingThreshold</th><td bgcolor="#FFFFFF">0</td><td bgcolor="#FFFFFF">10</td><td bgcolor="#FFFFFF">10</td><td bgcolor="#FFFFFF">20</td><td bgcolor="#FFFFFF">30</td><td bgcolor="#FFFFFF">50</td><td bgcolor="#FFFFFF">50</td><td bgcolor="#FFFFFF">100</td><td bgcolor="#FFFFFF">10</td></tr><tr><th bgcolor="#E0E0E0">MinPoolSize</th><td bgcolor="#FFFFFF">0</td><td bgcolor="#FFFFFF">0</td><td bgcolor="#FFFFFF">0</td><td bgcolor="#FFFFFF">1</td><td bgcolor="#FFFFFF">0</td><td bgcolor="#FFFFFF">0</td><td bgcolor="#FFFFFF">0</td><td bgcolor="#FFFFFF">0</td><td bgcolor="#FFFFFF">0</td></tr><tr><th bgcolor="#E0E0E0">JavaPriority</th><td bgcolor="#FFFFFF">5</td><td bgcolor="#FFFFFF">5</td><td bgcolor="#FFFFFF">5</td><td bgcolor="#FFFFFF">5</td><td bgcolor="#FFFFFF">5</td><td bgcolor="#FFFFFF">5</td><td bgcolor="#FFFFFF">5</td><td bgcolor="#FFFFFF">5</td><td bgcolor="#FFFFFF">5</td></tr><tr><th bgcolor="#E0E0E0">EnableDeadlines</th><td bgcolor="#FFFFFF">null</td><td bgcolor="#FFFFFF">null</td><td bgcolor="#FFFFFF">null</td><td bgcolor="#FFFFFF">null</td><td bgcolor="#FFFFFF">null</td><td bgcolor="#FFFFFF">null</td><td bgcolor="#FFFFFF">null</td><td bgcolor="#FFFFFF">null</td><td bgcolor="#FFFFFF">null</td></tr><tr><th bgcolor="#E0E0E0">Rescheduling</th><td bgcolor="#FFFFFF">true</td><td bgcolor="#FFFFFF">true</td><td bgcolor="#FFFFFF">true</td><td bgcolor="#FFFFFF">true</td><td bgcolor="#FFFFFF">true</td><td bgcolor="#FFFFFF">true</td><td bgcolor="#FFFFFF">true</td><td bgcolor="#FFFFFF">true</td><td bgcolor="#FFFFFF">true</td></tr><tr><th bgcolor="#E0E0E0">ReschedulingInterval</th><td bgcolor="#FFFFFF">5000</td><td bgcolor="#FFFFFF">5000</td><td bgcolor="#FFFFFF">5000</td><td bgcolor="#FFFFFF">5000</td><td bgcolor="#FFFFFF">5000</td><td bgcolor="#FFFFFF">5000</td><td bgcolor="#FFFFFF">5000</td><td bgcolor="#FFFFFF">5000</td><td bgcolor="#FFFFFF">5000</td></tr><tr><th bgcolor="#E0E0E0">MaxWaitTime</th><td bgcolor="#FFFFFF">1000000000</td><td bgcolor="#FFFFFF">1000000000</td><td bgcolor="#FFFFFF">1000000000</td><td bgcolor="#FFFFFF">72000000</td><td bgcolor="#FFFFFF">3600000</td><td bgcolor="#FFFFFF">3600000</td><td bgcolor="#FFFFFF">1200000</td><td bgcolor="#FFFFFF">60000</td><td bgcolor="#FFFFFF">3600000</td></tr><tr><th bgcolor="#E0E0E0">ResourceAllocation</th><td bgcolor="#FFFFFF">10</td><td bgcolor="#FFFFFF">20</td><td bgcolor="#FFFFFF">40</td><td bgcolor="#FFFFFF">50</td><td bgcolor="#FFFFFF">50</td><td bgcolor="#FFFFFF">60</td><td bgcolor="#FFFFFF">90</td><td bgcolor="#FFFFFF">120</td><td bgcolor="#FFFFFF">50</td></tr><tr><th bgcolor="#E0E0E0">InitialCycles</th><td bgcolor="#FFFFFF">5</td><td bgcolor="#FFFFFF">5</td><td bgcolor="#FFFFFF">5</td><td bgcolor="#FFFFFF">5</td><td bgcolor="#FFFFFF">5</td><td bgcolor="#FFFFFF">5</td><td bgcolor="#FFFFFF">5</td><td bgcolor="#FFFFFF">10</td><td bgcolor="#FFFFFF">5</td></tr><tr><th bgcolor="#E0E0E0">DeadlineThreads</th><td bgcolor="#FFFFFF">null</td><td bgcolor="#FFFFFF">null</td><td bgcolor="#FFFFFF">null</td><td bgcolor="#FFFFFF">null</td><td bgcolor="#FFFFFF">null</td><td bgcolor="#FFFFFF">null</td><td bgcolor="#FFFFFF">null</td><td bgcolor="#FFFFFF">null</td><td bgcolor="#FFFFFF">null</td></tr><tr><th bgcolor="#E0E0E0">StealThreads</th><td bgcolor="#FFFFFF">false</td><td bgcolor="#FFFFFF">false</td><td bgcolor="#FFFFFF">false</td><td bgcolor="#FFFFFF">false</td><td bgcolor="#FFFFFF">false</td><td bgcolor="#FFFFFF">false</td><td bgcolor="#FFFFFF">false</td><td bgcolor="#FFFFFF">false</td><td bgcolor="#FFFFFF">false</td></tr><tr><th bgcolor="#E0E0E0">AllowStealing</th><td bgcolor="#FFFFFF">false</td><td bgcolor="#FFFFFF">false</td><td bgcolor="#FFFFFF">false</td><td bgcolor="#FFFFFF">false</td><td bgcolor="#FFFFFF">false</td><td bgcolor="#FFFFFF">false</td><td bgcolor="#FFFFFF">false</td><td bgcolor="#FFFFFF">false</td><td bgcolor="#FFFFFF">false</td></tr></tbody></font></table><table border='0' cellspacing='0' cellpadding='0'><font size='3'><tbody><br /><br /><tr><td align='right'><B>queuewatcher.QThreadLimit: </B></td><td>8</td><td align='rigth'>Value to restrict the total fairness number of threads.MinPoolSize (q-level) will override this value</td></tr><tr><td align='right'><B>Distribution Threshold: </B></td><td>20</td><td align='right'>Distribute wfc if this queue has a DistributionThreshold load % higher than a remote (same) queue</td></tr><tr><td align='right'><B>Cluster: </B></td><td>true</td><td align='right'>Cluster configuration. Other active nodes should appear in the Multicast display</td></tr><tr><td align='right'><B>Use JGroups: </B></td><td> true </td><td align='right'>Cluster configuration is using JGroups</td></tr><tr><td align='right'><B>Multicasting: </B></td><td>null</td><td align='right'>queuewatcher.queuewatcher.MulticastingDesc</td></tr><tr><td align='right'><B>queuewatcher.queuewatcher.DistributionOnWeight: </B></td><td>false</td><td align='right'>If false (default) the loadbalance is based on queue depth (see DistributionThreshold)</td></tr><tr><td align='right'><B>queueWatcher On: </B></td><td>true</td><td align='right'>If true: standard queueWatcher can be invoked</td></tr><tr><td align='right'><B>Use Transaction: </B></td><td>true</td><td align='right'>If true: BP transactional operation enabled</td></tr></tbody></font></table></body></html></body></html>
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+	<head>
+		<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache" />
+		<META HTTP-EQUIV="Pragma" CONTENT="no-cache" />
+		<META HTTP-EQUIV="Expires" CONTENT="-1" />
+		<title>QueueWatcher</title>
+		<link rel='stylesheet' type='text/css' href='./css/blue/admin.css' />
+	</head>
+	<body>
+		<a href="queueWatcher?securetoken=14842303894842cacogrvkpnc1w7xkze0e8oft">Back to Secure Queue Watcher Menu</a>
+		<br />
+		<html>
+			<head></head>
+			<body>
+				<h3>Queue Attributes:</h3>
+				<table border='1' cellspacing='0' cellpadding='4'>
+					<font size='3'>
+						<tbody>
+							<tr>
+								<td bgcolor="#E0E0E0" />
+								<br />
+								<th bgcolor="#E0E0E0">Queue1</th>
+								<th bgcolor="#E0E0E0">Queue2</th>
+								<th bgcolor="#E0E0E0">Queue3</th>
+								<th bgcolor="#E0E0E0">Queue4</th>
+								<th bgcolor="#E0E0E0">Queue5</th>
+								<th bgcolor="#E0E0E0">Queue6</th>
+								<th bgcolor="#E0E0E0">Queue7</th>
+								<th bgcolor="#E0E0E0">Queue8</th>
+								<th bgcolor="#E0E0E0">Queue9</th>
+							</tr>
+							<tr>
+								<th bgcolor="#E0E0E0">AE_ExecuteCycle</th>
+								<td bgcolor="#FFFFFF">1000</td>
+								<td bgcolor="#FFFFFF">100</td>
+								<td bgcolor="#FFFFFF">100</td>
+								<td bgcolor="#FFFFFF">100</td>
+								<td bgcolor="#FFFFFF">100</td>
+								<td bgcolor="#FFFFFF">10</td>
+								<td bgcolor="#FFFFFF">5</td>
+								<td bgcolor="#FFFFFF">2</td>
+								<td bgcolor="#FFFFFF">50</td>
+							</tr>
+							<tr>
+								<th bgcolor="#E0E0E0">AE_ExecuteCycleTime</th>
+								<td bgcolor="#FFFFFF">1000000000</td>
+								<td bgcolor="#FFFFFF">1000000000</td>
+								<td bgcolor="#FFFFFF">10000000</td>
+								<td bgcolor="#FFFFFF">2000000</td>
+								<td bgcolor="#FFFFFF">100000</td>
+								<td bgcolor="#FFFFFF">100000</td>
+								<td bgcolor="#FFFFFF">500</td>
+								<td bgcolor="#FFFFFF">300</td>
+								<td bgcolor="#FFFFFF">100000</td>
+							</tr>
+							<tr>
+								<th bgcolor="#E0E0E0">QueueDepth</th>
+								<td bgcolor="#FFFFFF">500000</td>
+								<td bgcolor="#FFFFFF">500000</td>
+								<td bgcolor="#FFFFFF">500000</td>
+								<td bgcolor="#FFFFFF">500000</td>
+								<td bgcolor="#FFFFFF">500000</td>
+								<td bgcolor="#FFFFFF">500000</td>
+								<td bgcolor="#FFFFFF">500000</td>
+								<td bgcolor="#FFFFFF">500000</td>
+								<td bgcolor="#FFFFFF">500000</td>
+							</tr>
+							<tr>
+								<th bgcolor="#E0E0E0">MaxPoolSize</th>
+								<td bgcolor="#FFFFFF">1</td>
+								<td bgcolor="#FFFFFF">3</td>
+								<td bgcolor="#FFFFFF">5</td>
+								<td bgcolor="#FFFFFF">8</td>
+								<td bgcolor="#FFFFFF">16</td>
+								<td bgcolor="#FFFFFF">8</td>
+								<td bgcolor="#FFFFFF">16</td>
+								<td bgcolor="#FFFFFF">16</td>
+								<td bgcolor="#FFFFFF">4</td>
+							</tr>
+							<tr>
+								<th bgcolor="#E0E0E0">CachingThreshold</th>
+								<td bgcolor="#FFFFFF">0</td>
+								<td bgcolor="#FFFFFF">10</td>
+								<td bgcolor="#FFFFFF">10</td>
+								<td bgcolor="#FFFFFF">20</td>
+								<td bgcolor="#FFFFFF">30</td>
+								<td bgcolor="#FFFFFF">50</td>
+								<td bgcolor="#FFFFFF">50</td>
+								<td bgcolor="#FFFFFF">100</td>
+								<td bgcolor="#FFFFFF">10</td>
+							</tr>
+							<tr>
+								<th bgcolor="#E0E0E0">MinPoolSize</th>
+								<td bgcolor="#FFFFFF">0</td>
+								<td bgcolor="#FFFFFF">0</td>
+								<td bgcolor="#FFFFFF">0</td>
+								<td bgcolor="#FFFFFF">1</td>
+								<td bgcolor="#FFFFFF">0</td>
+								<td bgcolor="#FFFFFF">0</td>
+								<td bgcolor="#FFFFFF">0</td>
+								<td bgcolor="#FFFFFF">0</td>
+								<td bgcolor="#FFFFFF">0</td>
+							</tr>
+							<tr>
+								<th bgcolor="#E0E0E0">JavaPriority</th>
+								<td bgcolor="#FFFFFF">5</td>
+								<td bgcolor="#FFFFFF">5</td>
+								<td bgcolor="#FFFFFF">5</td>
+								<td bgcolor="#FFFFFF">5</td>
+								<td bgcolor="#FFFFFF">5</td>
+								<td bgcolor="#FFFFFF">5</td>
+								<td bgcolor="#FFFFFF">5</td>
+								<td bgcolor="#FFFFFF">5</td>
+								<td bgcolor="#FFFFFF">5</td>
+							</tr>
+							<tr>
+								<th bgcolor="#E0E0E0">EnableDeadlines</th>
+								<td bgcolor="#FFFFFF">null</td>
+								<td bgcolor="#FFFFFF">null</td>
+								<td bgcolor="#FFFFFF">null</td>
+								<td bgcolor="#FFFFFF">null</td>
+								<td bgcolor="#FFFFFF">null</td>
+								<td bgcolor="#FFFFFF">null</td>
+								<td bgcolor="#FFFFFF">null</td>
+								<td bgcolor="#FFFFFF">null</td>
+								<td bgcolor="#FFFFFF">null</td>
+							</tr>
+							<tr>
+								<th bgcolor="#E0E0E0">Rescheduling</th>
+								<td bgcolor="#FFFFFF">true</td>
+								<td bgcolor="#FFFFFF">true</td>
+								<td bgcolor="#FFFFFF">true</td>
+								<td bgcolor="#FFFFFF">true</td>
+								<td bgcolor="#FFFFFF">true</td>
+								<td bgcolor="#FFFFFF">true</td>
+								<td bgcolor="#FFFFFF">true</td>
+								<td bgcolor="#FFFFFF">true</td>
+								<td bgcolor="#FFFFFF">true</td>
+							</tr>
+							<tr>
+								<th bgcolor="#E0E0E0">ReschedulingInterval</th>
+								<td bgcolor="#FFFFFF">5000</td>
+								<td bgcolor="#FFFFFF">5000</td>
+								<td bgcolor="#FFFFFF">5000</td>
+								<td bgcolor="#FFFFFF">5000</td>
+								<td bgcolor="#FFFFFF">5000</td>
+								<td bgcolor="#FFFFFF">5000</td>
+								<td bgcolor="#FFFFFF">5000</td>
+								<td bgcolor="#FFFFFF">5000</td>
+								<td bgcolor="#FFFFFF">5000</td>
+							</tr>
+							<tr>
+								<th bgcolor="#E0E0E0">MaxWaitTime</th>
+								<td bgcolor="#FFFFFF">1000000000</td>
+								<td bgcolor="#FFFFFF">1000000000</td>
+								<td bgcolor="#FFFFFF">1000000000</td>
+								<td bgcolor="#FFFFFF">72000000</td>
+								<td bgcolor="#FFFFFF">3600000</td>
+								<td bgcolor="#FFFFFF">3600000</td>
+								<td bgcolor="#FFFFFF">1200000</td>
+								<td bgcolor="#FFFFFF">60000</td>
+								<td bgcolor="#FFFFFF">3600000</td>
+							</tr>
+							<tr>
+								<th bgcolor="#E0E0E0">ResourceAllocation</th>
+								<td bgcolor="#FFFFFF">10</td>
+								<td bgcolor="#FFFFFF">20</td>
+								<td bgcolor="#FFFFFF">40</td>
+								<td bgcolor="#FFFFFF">50</td>
+								<td bgcolor="#FFFFFF">50</td>
+								<td bgcolor="#FFFFFF">60</td>
+								<td bgcolor="#FFFFFF">90</td>
+								<td bgcolor="#FFFFFF">120</td>
+								<td bgcolor="#FFFFFF">50</td>
+							</tr>
+							<tr>
+								<th bgcolor="#E0E0E0">InitialCycles</th>
+								<td bgcolor="#FFFFFF">5</td>
+								<td bgcolor="#FFFFFF">5</td>
+								<td bgcolor="#FFFFFF">5</td>
+								<td bgcolor="#FFFFFF">5</td>
+								<td bgcolor="#FFFFFF">5</td>
+								<td bgcolor="#FFFFFF">5</td>
+								<td bgcolor="#FFFFFF">5</td>
+								<td bgcolor="#FFFFFF">10</td>
+								<td bgcolor="#FFFFFF">5</td>
+							</tr>
+							<tr>
+								<th bgcolor="#E0E0E0">DeadlineThreads</th>
+								<td bgcolor="#FFFFFF">null</td>
+								<td bgcolor="#FFFFFF">null</td>
+								<td bgcolor="#FFFFFF">null</td>
+								<td bgcolor="#FFFFFF">null</td>
+								<td bgcolor="#FFFFFF">null</td>
+								<td bgcolor="#FFFFFF">null</td>
+								<td bgcolor="#FFFFFF">null</td>
+								<td bgcolor="#FFFFFF">null</td>
+								<td bgcolor="#FFFFFF">null</td>
+							</tr>
+							<tr>
+								<th bgcolor="#E0E0E0">StealThreads</th>
+								<td bgcolor="#FFFFFF">false</td>
+								<td bgcolor="#FFFFFF">false</td>
+								<td bgcolor="#FFFFFF">false</td>
+								<td bgcolor="#FFFFFF">false</td>
+								<td bgcolor="#FFFFFF">false</td>
+								<td bgcolor="#FFFFFF">false</td>
+								<td bgcolor="#FFFFFF">false</td>
+								<td bgcolor="#FFFFFF">false</td>
+								<td bgcolor="#FFFFFF">false</td>
+							</tr>
+							<tr>
+								<th bgcolor="#E0E0E0">AllowStealing</th>
+								<td bgcolor="#FFFFFF">false</td>
+								<td bgcolor="#FFFFFF">false</td>
+								<td bgcolor="#FFFFFF">false</td>
+								<td bgcolor="#FFFFFF">false</td>
+								<td bgcolor="#FFFFFF">false</td>
+								<td bgcolor="#FFFFFF">false</td>
+								<td bgcolor="#FFFFFF">false</td>
+								<td bgcolor="#FFFFFF">false</td>
+								<td bgcolor="#FFFFFF">false</td>
+							</tr>
+						</tbody>
+					</font>
+				</table>
+				<table border='0' cellspacing='0' cellpadding='0'>
+					<font size='3'>
+						<tbody>
+							<br />
+							<br />
+							<tr>
+								<td align='right'>
+									<B>queuewatcher.QThreadLimit: </B>
+								</td>
+								<td>8</td>
+								<td align='rigth'>Value to restrict the total fairness number of
+									threads.MinPoolSize (q-level) will override this value</td>
+							</tr>
+							<tr>
+								<td align='right'>
+									<B>Distribution Threshold: </B>
+								</td>
+								<td>20</td>
+								<td align='right'>Distribute wfc if this queue has a
+									DistributionThreshold load % higher than a remote (same) queue</td>
+							</tr>
+							<tr>
+								<td align='right'>
+									<B>Cluster: </B>
+								</td>
+								<td>true</td>
+								<td align='right'>Cluster configuration. Other active nodes should
+									appear in the Multicast display</td>
+							</tr>
+							<tr>
+								<td align='right'>
+									<B>Use JGroups: </B>
+								</td>
+								<td> true </td>
+								<td align='right'>Cluster configuration is using JGroups</td>
+							</tr>
+							<tr>
+								<td align='right'>
+									<B>Multicasting: </B>
+								</td>
+								<td>null</td>
+								<td align='right'>queuewatcher.queuewatcher.MulticastingDesc</td>
+							</tr>
+							<tr>
+								<td align='right'>
+									<B>queuewatcher.queuewatcher.DistributionOnWeight: </B>
+								</td>
+								<td>false</td>
+								<td align='right'>If false (default) the loadbalance is based on
+									queue depth (see DistributionThreshold)</td>
+							</tr>
+							<tr>
+								<td align='right'>
+									<B>queueWatcher On: </B>
+								</td>
+								<td>true</td>
+								<td align='right'>If true: standard queueWatcher can be invoked</td>
+							</tr>
+							<tr>
+								<td align='right'>
+									<B>Use Transaction: </B>
+								</td>
+								<td>true</td>
+								<td align='right'>If true: BP transactional operation enabled</td>
+							</tr>
+						</tbody>
+					</font>
+				</table>
+			</body>
+		</html>
+	</body>
+</html>
