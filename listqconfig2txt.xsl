@@ -33,8 +33,17 @@
 <!-- parsing 1 table -->
 		<xsl:for-each select="//table[1]/font/tbody/tr">
 		 
-			<xsl:if test="position()=1">
+			<xsl:if test="position()!=1">
+				<xsl:value-of select="th"/>
+				<xsl:text>;</xsl:text>
+				<xsl:for-each select="td">
+					<xsl:value-of select="."/>
+					<xsl:text>;</xsl:text>
+				</xsl:for-each>
+				<xsl:text> </xsl:text>
 			</xsl:if>
+			
+
 		<!--	
 			<xsl:if test="position()!=1">
 				<xsl:for-each select="td">
@@ -44,10 +53,8 @@
 				</xsl:for-each>
 			</xsl:if>
 		 -->
+	 	
 		</xsl:for-each>
-
-
-
 		
 	</xsl:template>
 </xsl:stylesheet>
