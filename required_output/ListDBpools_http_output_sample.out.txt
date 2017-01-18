@@ -1,0 +1,1 @@
+NODE1 2017-01-12 09:09:23 JDBC 5 db2Pool db2ArchivePool db2UIPool db2Pool_NoTrans db2Pool_local 
